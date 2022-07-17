@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: cornflowerblue;
+    color: aqua;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.App-logo {
+    height: 70%;
+}
+
+.header h2 {
+    margin-left: 30px;
+}
+
+.header nav {
+    margin-left: auto;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    padding: 10px;
+    border: dotted aqua 1.5px;
+    margin: 15px;
+}
+.header nav ul li a {
+    text-decoration: none;
+    color: aqua;
+}
+.header nav ul li a:hover{
+    color: blue;
+}
